@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
 import Dashboard from "../pages/Dashboard";
+import Organization from "../pages/Organization"
 import SellCar from "../pages/SellCar";
 import Settings from "../pages/Settings";
 import Employees from "../pages/Employees";
@@ -28,6 +29,7 @@ const Router = () => {
         element={<Navigate to="/dashboard" element={<Dashboard />} />}
       />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/organization" element={<Organization />} />
       <Route path="/sell-car" element={<SellCar />} />
       <Route path="/settings" element={<Settings />} />
       <Route path="/employees" element={<Employees/>} />

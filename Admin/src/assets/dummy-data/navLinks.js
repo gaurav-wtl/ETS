@@ -5,6 +5,11 @@ const navLinks = [
     display: "Dashboard",
   },
   {
+    path: "/organization",
+    icon: "ri-apps-2-line",
+    display: "Organization",
+  },
+  {
     path: "/AddDrivers",
     icon: "ri-settings-2-line",
     display: "Add Drivers",
